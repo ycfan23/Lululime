@@ -27,7 +27,7 @@ const App = () => {
               type='text'
               placeholder='Enter discount code'
               value={field.value || ''}
-              onChange={e => handleChange(e)}
+              onChange={e => handleChange(index, e)}
             />
           )
         })}
